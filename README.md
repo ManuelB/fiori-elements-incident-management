@@ -1,6 +1,6 @@
 # Sample Service Used in Tutorials for SAP Fiori Elements Floorplans for OData V4
 
-This is the fork from ManuelB use at your own risk.
+This is the fork from JuliusB use at your own risk.
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/fiori-elements-incident-management)](https://api.reuse.software/info/github.com/SAP-samples/fiori-elements-incident-management)
 
