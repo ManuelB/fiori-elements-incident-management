@@ -123,6 +123,15 @@
                                             },
                                             "type": "XMLFragment",
                                             "title": "Maximum Processing Time"
+                                        },
+                                        "Location": {
+                                          "name": "sap.fe.demo.incidents.ext.fragment.Location",
+                                            "position": {
+                                                "anchor": "CustomSectionGantt",
+                                                "placement": "After"
+                                            },
+                                            "type": "XMLFragment",
+                                            "title": "Location"
                                         }
                                     }
                                 }
