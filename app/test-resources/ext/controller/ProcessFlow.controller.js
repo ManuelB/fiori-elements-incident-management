@@ -27,7 +27,7 @@ function (Controller, RoutingListener, JSONModel, MessageToast) {
 		},
 
 		onNodePress: function (event) {
-			MessageToast.show("Node " + event.getParameters().getNodeId() + " has been clicked.");
+			MessageToast.show("Node " + event.getParameters().getNodeId() + " has been selected.");
 		}
 	});
 });
