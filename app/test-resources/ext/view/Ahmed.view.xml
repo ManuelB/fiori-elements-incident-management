@@ -1,0 +1,8 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:m="sap.m"
+    xmlns="sap.suite.ui.commons"
+    xmlns:f="sap.f"
+    xmlns:layout="sap.ui.layout"    
+	controllerName="sap.fe.demo.incidents.ext.controller.ProcessFlow">
+</mvc:View>
