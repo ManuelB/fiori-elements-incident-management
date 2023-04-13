@@ -35,6 +35,10 @@ annotate service.Incidents with @(UI : {
             $Type : 'UI.DataField',
             Value : category_code
         },
+        {
+            $Type : 'UI.DataField',
+            Value : location
+        },
         //insert your line item enhancement here
 
     ],
@@ -48,6 +52,7 @@ annotate service.Incidents with @(UI : {
     SelectionFields : [
         incidentStatus_code,
         priority_code,
+        location,
         //insert your selection fields enhancement here
 
     ],
@@ -58,6 +63,7 @@ annotate service.Incidents with @(UI : {
         TypeNamePlural : '{i18n>Incidents}',
         TypeImageUrl   : 'sap-icon://alert',
         Title          : {Value : title},
+        Location          : {Value : location},
         Description    : {Value : ID}
     },
 
@@ -82,6 +88,9 @@ annotate service.Incidents with @(UI : {
                 Value : category_code
             },
             {
+                Value : location
+            },
+            {
                 $Type  : 'UI.DataFieldForAnnotation',
                 Target : 'assignedIndividual/@Communication.Contact',
                 Label  : '{i18n>AssignedContact}'
@@ -99,6 +108,10 @@ annotate service.Incidents with @(UI : {
             {
                 $Type : 'UI.DataField',
                 Value : title
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : location
             },
             //insert your field group enhancement here 
             
